@@ -42,23 +42,7 @@ public class JhonTrot {
     static int mobileEle(int[] ar,int[] d){
         int f,x=0;
 
-   /*     for(int i=d.length-1;i>-1;i--){
-            f=0;
-            switch(d[i]){
-                case -1:
-                    if(ar[i]>ar[i-1]){
-                        f=1;
-                        return i;
-                    }
-                    break;
-                case 1:
-                    if(ar[i]>ar[i+1]){
-                        f=1;
-                        return i;
-                    }
-                    break;
-            }
-        }*/
+ 
 
         int arr[]=new int[ar.length];
         for(int i=0;i<ar.length;i++){
